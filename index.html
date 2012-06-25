@@ -5,7 +5,7 @@ frontpage: yes
 ---
 
 <div class="allPosts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
 		<div class="postListing">
 			{% if post.image %}
 				<div class="postImage">
@@ -21,7 +21,19 @@ frontpage: yes
 		<div class="postSeparator"></div>
   {% endfor %}
 	<div class="postNavigation">
-		<span class="gray"><a href="/" class="newerPosts">&larr; newer posts</a></span>
-		<span class="gray"><a href="/" class="olderPosts">older posts &rarr;</a></span>
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a href="/" class="newerPosts">&larr; newer posts</a>
+			{% else %}
+				<a href="/page{{paginator.previous_page}}" class="newerPosts">&larr; newer posts</a>
+			{% endif %}
+		{% else %}
+			<span class="gray"><a href="/" class="newerPosts">(no newer posts)</a></span>
+		{% endif %}
+		{% if paginator.next_page %}
+			<a href="/page{{paginator.next_page}}" class="olderPosts">older posts &rarr;</a>
+		{% else %}
+			<span class="gray"><a href="/" class="olderPosts">(no older posts)</a></span>
+		{% endif %}
 	</div>
 </div>
