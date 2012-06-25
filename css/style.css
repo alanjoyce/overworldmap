@@ -1,0 +1,73 @@
+/* GENERAL */
+
+body {
+	background: rgb(14,18,36);
+	padding-top: 0.4em;
+	padding-bottom: 1.8em;
+	font-family: sans-serif;
+}
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* HEADER */
+
+#header {
+	height: 6.5em;
+	padding-bottom: 1.0em;
+}
+
+#header img {
+	height: 7em;
+	margin-right: 0.5em;
+	float: left;
+}
+
+#header a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#header p.siteTitle {
+	font-size: 2.8em;
+	font-family: 'Black Ops One', cursive;
+	padding-top: 0.5em;
+}
+
+#header p.siteSubtitle {
+	color: #ffddbb;
+	font-size: 1.3em;
+}
+
+
+/* CONTENT */
+
+#content {
+	background: #fff;
+	height: 500px;
+	border-left: 4px dashed rgb(14,18,36);
+	border-right: 4px dashed rgb(14,18,36);
+}
+
+
+/* POST */
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+/* FOOTER */
+
+#footer {
+	color: #444;
+	font-size: 0.8em;
+	padding-top: 0.7em;
+	padding-left: 0.5em;
+}
+
