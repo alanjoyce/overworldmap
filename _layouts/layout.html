@@ -26,16 +26,21 @@
 					<p class="siteSubtitle">Cartography and Wayfinding in Video Games</p>
 				</div>
 	    </header>
-	    <div id="content">
+	    <div id="main">
 				<div id="navigation">
-					{% if page.frontpage %}
-					{% else %}
-					<a href="/" class="back">&crarr; back to main</a>
-					{% endif %}
-					<a href="/about">about</a>
-					<a href="/contact">contact</a>
+					{% if page.frontpage %}<span class="gray">{% endif %}
+						<a href="/" class="back">&crarr; back to main</a>
+					{% if page.frontpage %}</span>{% endif %}
+					{% if page.title == "About" %}<span class="gray">{% endif %}
+						<a href="/about.html">about</a>
+					{% if page.title == "About" %}</span>{% endif %}
+					{% if page.title == "Contact" %}<span class="gray">{% endif %}
+						<a href="/contact.html">contact</a>
+					{% if page.title == "Contact" %}</span>{% endif %}
 				</div>
-	      {{ content }}
+				<div id="content">
+	      	{{ content }}
+				</div>
 	    </div>
 			<footer>
 				<div id="footer">

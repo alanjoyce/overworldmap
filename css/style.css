@@ -56,11 +56,10 @@ p.siteSubtitle {
 }
 
 
-/* CONTENT */
+/* MAIN */
 
-#content {
+#main {
 	background: #fff;
-	height: 500px;
 	border-left: 4px dashed rgb(14,18,36);
 	border-right: 4px dashed rgb(14,18,36);
 }
@@ -85,13 +84,23 @@ p.siteSubtitle {
 	margin-left: 0;
 }
 
+#navigation span.gray a {
+	color: #ccc;
+	pointer-events: none;
+	cursor: default;
+}
+
+#content {
+	padding: 1.4em;
+}
+
 
 /* POST */
 
 p.postTitle {
 	font-size: 2em;
 	font-weight: bold;
-	margin-top: 0.3em;
+	margin-bottom: 0.5em;
 }
 
 h1 {
@@ -104,6 +113,15 @@ h2 {
 
 p {
 	margin-bottom: 1em;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+li {
+	margin-left: 2em;
+	margin-top: 0.3em;
 }
 
 

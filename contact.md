@@ -1,17 +1,8 @@
 ---
-layout: layout
+layout: post
 title: Contact
-description: Documenting and analyzing the maps, indicators, and other wayfinding devices used in the past three decades of video games.
 ---
 
-<div class="content">
-  <div class="related">
-    <ul>
-      {% for post in site.posts %}
-      <li>
-	<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+email @ address
