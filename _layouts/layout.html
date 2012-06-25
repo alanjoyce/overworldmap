@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="/css/style.css">
 		
     <title>Overworld Map: {{ page.title }}</title>
-		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+		{% if page.frontpage %}<meta name="description" content="Documenting and analyzing the maps, indicators, and other wayfinding devices used in the past three decades of video games.">{% endif %}
   </head>
   <body>
 		<div id="container">
@@ -26,7 +26,15 @@
 					<p class="siteSubtitle">Cartography and Wayfinding in Video Games</p>
 				</div>
 	    </header>
-	    <div role="main" id="content">
+	    <div id="content">
+				<div id="navigation">
+					{% if page.frontpage %}
+					{% else %}
+					<a href="/" class="back">&crarr; back to main</a>
+					{% endif %}
+					<a href="/about">about</a>
+					<a href="/contact">contact</a>
+				</div>
 	      {{ content }}
 	    </div>
 			<footer>
