@@ -3,6 +3,25 @@ layout: layout
 ---
 
 <div class="post">
+	{% if page.image %}
+		<div class="postImage">
+			<img src="{{site.media}}{{page.image}}">
+		</div>
+	{% endif %}
   <p class="postTitle">{{ page.title }}</p>
+	<p class="postDate">{{ page.date | date: "%B %e, %Y" }}</p>
   {{ content }}
+</div>
+<div class="postSeparator"></div>
+<div class="postNavigation">
+	{% if page.next.url %}
+		<a href="{{page.next.url}}" class="newerPosts">&larr; {{page.next.title}}</a>
+	{% else %}
+		<span class="gray"><a href="/" class="newerPosts">(no newer post)</a></span>
+	{% endif %}
+	{% if page.previous.url %}
+		<a href="{{page.previous.url}}" class="olderPosts">{{page.previous.title}} &rarr;</a>
+	{% else %}
+		<span class="gray"><a href="/" class="olderPosts">(no older post)</a></span>
+	{% endif %}
 </div>

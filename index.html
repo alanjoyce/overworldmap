@@ -4,12 +4,24 @@ title: Cartography and Wayfinding in Video Games
 frontpage: yes
 ---
 
-<div class="related">
-  <ul>
-    {% for post in site.posts %}
-    <li>
-<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+<div class="allPosts">
+  {% for post in site.posts %}
+		<div class="postListing">
+			{% if post.image %}
+				<div class="postImage">
+					<a href="{{ post.url }}" class="postLink">
+						<img src="{{site.media}}{{post.image}}">
+					</a>
+				</div>
+			{% endif %}
+			<p class="postTitle"><a href="{{ post.url }}" class="postLink">{{ post.title }}</a></p>
+			<p class="postDate">{{ post.date | date: "%B %e, %Y" }}</p>
+			<p class="postPreview">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="postSeparator"></div>
+  {% endfor %}
+	<div class="postNavigation">
+		<span class="gray"><a href="/" class="newerPosts">&larr; newer posts</a></span>
+		<span class="gray"><a href="/" class="olderPosts">older posts &rarr;</a></span>
+	</div>
 </div>

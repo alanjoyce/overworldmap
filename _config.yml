@@ -2,3 +2,4 @@ auto: true
 markdown: rdiscount
 permalink: /:year/:month/:title
 rdiscount extensions: [smart]
+media: http://everythingdigital.org/overworld/
