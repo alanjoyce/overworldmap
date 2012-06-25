@@ -10,6 +10,12 @@
 *~
 *.sass-cache
 
+# Server
+.htaccess
+crossdomain.xml
+robots.txt
+404.html
+
 # OS or Editor folders
 .DS_Store
 Thumbs.db
