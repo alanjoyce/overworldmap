@@ -4,12 +4,12 @@ body {
 	background: rgb(14,18,36);
 	padding-top: 0.4em;
 	padding-bottom: 1.8em;
-	font-family: sans-serif;
+	font-family: 'Georgia', serif;
 	font-size: 1em;
 }
 
 #container {
-	width: 55em;
+	width: 60em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -50,8 +50,10 @@ div.siteTitle {
 }
 
 div.siteSubtitle {
-	color: #ffeeaa;
+	color: #bbb;
 	font-size: 1.3em;
+	font-weight: 300;
+	font-style: italic;
 	margin: 0;
 }
 
@@ -60,17 +62,18 @@ div.siteSubtitle {
 
 #main {
 	background: #fff;
-	border-left: 4px dashed rgb(14,18,36);
-	border-right: 4px dashed rgb(14,18,36);
+	border-left: 3px dashed rgb(14,18,36);
+	border-right: 3px dashed rgb(14,18,36);
 }
 
 #navigation {
 	text-align: right;
 	font-size: 1.1em;
+	font-family: 'Open Sans', sans-serif;
 	padding: 0.2em;
 	padding-bottom: 0.5em;
 	padding-right: 0.8em;
-	border-bottom: 1px dashed #888;
+	border-bottom: 1px solid #ccc;
 }
 
 #navigation a {
@@ -78,7 +81,7 @@ div.siteSubtitle {
 }
 
 #navigation a.back {
-	line-height: 0.8;
+	line-height: 0.8em;
 	float: left;
 	margin-top: 0.2em;
 	margin-left: 0;
@@ -92,6 +95,7 @@ span.gray a {
 
 #content {
 	padding: 1.4em;
+	width: 65%;
 }
 
 
@@ -104,7 +108,7 @@ div.postListing {
 div.postImage {
 	height: 15em;
 	overflow: hidden;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.8em;
 }
 
 div.postImage img {
@@ -123,7 +127,6 @@ div.postSeparator {
 
 div.postNavigation {
 	text-align: right;
-	font-size: 1.1em;
 }
 
 div.postNavigation a.newerPosts {
@@ -134,18 +137,14 @@ div.postNavigation a.newerPosts {
 /* POST */
 
 p.postTitle {
-	font-size: 2.5em;
-	font-weight: bold;
+	font-size: 2.2em;
 	margin-bottom: 0.1em;
-	color: rgb(110,70,40);
-	font-weight: normal;
-	font-style: italic;
-	font-family: serif;
-	line-height: 0.9;
+	color: rgb(105,140,70);
+	line-height: 1.1em;
 }
 
 p.postTitle a {
-	color: rgb(110,70,40);
+	color: rgb(105,140,70);
 }
 
 p.postTitle a:hover {
@@ -154,21 +153,34 @@ p.postTitle a:hover {
 }
 
 p.postDate {
-	color: #666;
-	line-height: 1;
+	line-height: 1.0em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin-bottom: 0.8em;
+}
+
+p.postPreview {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #444;
 }
 
 h1 {
 	font-size: 1.3em;
+	line-height: 1.3em;
 }
 
 h2 {
 	font-weight: bold;
+	line-height: 1.3em;
 }
 
 p {
 	margin-bottom: 1em;
 	line-height: 1.2em;
+	color: #222;
 }
 
 ul {

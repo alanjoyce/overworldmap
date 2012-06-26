@@ -15,8 +15,8 @@ frontpage: yes
 				</div>
 			{% endif %}
 			<p class="postTitle"><a href="{{ post.url }}" class="postLink">{{ post.title }}</a></p>
-			<p class="postDate">{{ post.date | date: "%B %e, %Y" }}</p>
-			<p class="postPreview">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+			<p class="postDate">{{ post.date | date: "%B %e, %Y" }} in {% for category in post.categories %}{% if forloop.first %}{% else %}, {% endif %}<a href="/{{category}}.html">{{category}}</a>{% endfor %}</p>
+			<p class="postPreview">{{ post.teaser }}</p>
 		</div>
 		<div class="postSeparator"></div>
   {% endfor %}

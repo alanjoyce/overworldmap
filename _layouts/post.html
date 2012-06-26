@@ -3,13 +3,18 @@ layout: layout
 ---
 
 <div class="post">
+	<p class="postTitle">{{ page.title }}</p>
+	{% if page.date %}
+		<p class="postDate">{{ page.date | date: "%B %e, %Y" }} in {% for category in page.categories %}{% if forloop.first %}{% else %}, {% endif %}<a href="/{{category}}.html">{{category}}</a>{% endfor %}</p>
+	{% endif %}
+	{% if page.teaser %}
+		<p class="postPreview">{{ page.teaser }}</p>
+	{% endif %}
 	{% if page.image %}
 		<div class="postImage">
 			<img src="{{site.media}}{{page.image}}">
 		</div>
 	{% endif %}
-  <p class="postTitle">{{ page.title }}</p>
-	<p class="postDate">{{ page.date | date: "%B %e, %Y" }}</p>
   {{ content }}
 </div>
 <div class="postSeparator"></div>
