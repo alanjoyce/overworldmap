@@ -70,7 +70,6 @@ div.siteSubtitle {
 #navigation {
 	text-align: right;
 	font-size: 1.1em;
-	font-family: 'Open Sans', sans-serif;
 	padding: 0.2em;
 	padding-bottom: 0.5em;
 	padding-right: 0.8em;
@@ -168,6 +167,12 @@ div.postNavigation a.newerPosts {
 
 
 /* CATEGORY */
+
+p.categoryTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
 
 div.categoryPostImage {
 	height: 2.5em;
