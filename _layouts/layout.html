@@ -22,8 +22,6 @@
 		{% endif %}
 		
 		{% if page.frontpage %}<meta name="description" content="A celebration of video game cartography, studying the maps, indicators, and interfaces that help players find their way around.">{% endif %}
-		
-		{% include google_ajax_search.html %}
   </head>
   <body>
 		<div id="container">
@@ -54,7 +52,12 @@
 						{% endfor %}
 					</div>
 					
-					<div id="searchBox"></div>
+					<div id="searchBox">
+						<form name="search" action="http://google.com/search" method="get" onsubmit="javascript: this['q'].value = this['mytext'].value + ' site:overworldmap.com'; return true;">
+							<input name="mytext" class="searchInput" type="text" value="search for something..." onfocus="javascript: if(this.value == 'search for something...') this.value = ''; this.style.color = '#222';" onblur="javascript: if(this.value == '') this.value = 'search for something...'; this.style.color = '#888';" />
+							<input name="q" type="hidden" />
+						</form>
+					</div>
 				</div>
 				
 				<div id="content">

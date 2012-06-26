@@ -197,17 +197,17 @@ div.categoryPostImage img {
 	margin-top: 2em;
 }
 
-.gsc-control {
-	width: 100% !important;
-}
-
-.gsc-input {
-	height: 2.5em;
+.searchInput {
+	width: 90%;
+	height: 2em;
+	font-size: 0.8em;
 	color: #888;
+	border: 1px solid #aaa;
+	padding: 0.2em;
 }
 
-.gsc-search-button {
-	display: none;
+.searchInput:focus {
+	outline: none;
 }
 
 

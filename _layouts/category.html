@@ -3,7 +3,7 @@ layout: layout
 ---
 
 <div class="category">
-	<p class="categoryTitle">posts // {{page.title | downcase}}</p>
+	<p class="categoryTitle">posts // {{page.title | downcase}}{% if paginator.previous_page %} // {{paginator.page}}{% endif %}</p>
 	
 	<div class="categoryPosts">
 		{% for post in paginator.posts %}
