@@ -1,0 +1,13 @@
+
+<span style="display:none;">{% increment galleryNum %}</span>
+<div class="gallery" id="gallery{{galleryNum}}"></div>
+<div class="galleryClear"></div>
+<script type="text/javascript">
+	theseImages = ["{{gallery | replace:', ','", "'}}"];
+	document.getElementById("gallery{{galleryNum}}").innerHTML += '<div class="galleryImageFirst"><img src="{{site.media}}' + theseImages[0] + '" /></div>';
+	if(theseImages.length > 1) {
+		for(i = 0; i < theseImages.length; i++) {
+			document.getElementById("gallery{{galleryNum}}").innerHTML += '<div class="galleryImage"><a href="{{site.media}}' + theseImages[i] + '"><img src="{{site.media}}' + theseImages[i] + '" /></a></div>';
+		}
+	}
+</script>
