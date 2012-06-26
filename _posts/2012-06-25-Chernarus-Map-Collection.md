@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A Final Testing Post
-image: crusader_kings_2_green.jpg
-categories: [maps]
-teaser: Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+title: Reviewed&#58; Chernarus Map Collection
+image: chernarus_map_collection.jpg
+categories: [reviews]
+teaser: Bohemia Interactive, developer of tactical shooter ARMA II, has released a printed map collection for the fictional country of Chernarus, made famous as the setting for the DayZ zombie survival RPG. We take a hands-on look at these maps and assess their suitability for your next adventure.
 ---
 
 Yeah, it is! Awesome! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.

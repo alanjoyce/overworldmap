@@ -51,7 +51,7 @@
 				<div id="sidebar">
 					<div id="categoryList">
 						{% for category in site.categories %}
-							<a href="/{{category | first}}" class="category"><p class="category">{{category | first}}</p></a>
+							<a href="/{{category | first}}" class="category"><p class="category">{{category | first | replace:'-',' '}}</p></a>
 						{% endfor %}
 					</div>
 					

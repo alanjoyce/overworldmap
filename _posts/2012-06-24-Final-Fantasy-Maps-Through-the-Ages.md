@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Here is Another Post
+title: Final Fantasy Maps Through the Ages
 image: final_fantasy_overworld.png
-categories: [maps]
-teaser: Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+categories: [features]
+teaser: We take a look back at the cartography of the Final Fantasy franchise, beginning with the 1987 NES release and working our way forward in time.
 ---
 
 Yeah, it is! Awesome! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
