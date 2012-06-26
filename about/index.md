@@ -3,8 +3,15 @@ layout: post
 title: About
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+The goal of _Overworld Map_ is  to study the maps, indicators, and interfaces that have helped players find their way through three decades of video games.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+These decades have included years of experimentation with game-related cartography, from printed paper and cloth maps to interactive, searchable, digital ones. This evolution is a fascinating study in cartographic technique, visual aesthetics, and interface design, which deserves to be fully explored and documented.
 
-Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+# Acknowledgements
+
+This blog is built using [Jekyll](https://github.com/mojombo/jekyll) by Tom Preston-Werner and the [Category Generator](https://github.com/dsalzr/jekyll-category-generator) plugin by Daniel Salazar.
+
+The favicon you see in your address bar is pixel art from Henrique Lazarini (a.k.a. [Ails](http://ails.deviantart.com/)) and the island you see at the top of each page is part of the [Chrono Trigger](http://www.giantbomb.com/chrono-trigger/61-9249/) map as compiled by [Chronicles](http://www.rpgplanet.com/chrono/ct_maps.shtml).
+
+Bits and pieces of text across this website make use of the typefaces [Open Sans](https://www.google.com/webfonts/specimen/Open+Sans) and [Black Ops One](http://www.google.com/webfonts/specimen/Black+Ops+One) from Google Web Fonts.
+

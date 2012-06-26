@@ -21,7 +21,10 @@
 			<title>{{ page.title }} - Overworld Map</title>
 		{% endif %}
 		
-		{% if page.frontpage %}<meta name="description" content="A celebration of video game cartography, studying the maps, indicators, and interfaces that help players find their way around.">{% endif %}
+		{% if page.frontpage %}<meta name="description" content="A celebration of video game cartography. Studying the maps, indicators, and interfaces that have helped players find their way through three decades of games.">
+		{% else if page.teaser %}
+			<meta name="description" content="{{page.teaser}}">
+		{% endif %}
   </head>
   <body>
 		<div id="container">
@@ -67,7 +70,7 @@
 	    </div>
 			<footer>
 				<div id="footer">
-					Copyright 2012 | Alan Joyce
+					Copyright 2012 | <a href="http://thisisalan.com">Alan Joyce</a>
 				</div>
 			</footer>
 		</div>

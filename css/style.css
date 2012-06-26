@@ -241,22 +241,23 @@ p.postPreview {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.9em;
 	font-weight: 300;
+	line-height: 1.2em;
 	color: #444;
 }
 
 h1 {
 	font-size: 1.3em;
-	line-height: 1.3em;
+	line-height: 1.5em;
 }
 
 h2 {
 	font-weight: bold;
-	line-height: 1.3em;
+	line-height: 1.5em;
 }
 
 p {
 	margin-bottom: 1em;
-	line-height: 1.2em;
+	line-height: 1.4em;
 }
 
 ul {
@@ -269,6 +270,21 @@ li {
 	margin-top: 0.3em;
 }
 
+blockquote {
+	margin-left: 1em;
+	padding-left: 0.5em;
+	border-left: 2px solid #222;
+	font-style: italic;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
 
 /* FOOTER */
 
@@ -277,5 +293,9 @@ li {
 	font-size: 0.8em;
 	padding-top: 0.7em;
 	padding-left: 0.5em;
+}
+
+#footer a {
+	color: #444;
 }
 
