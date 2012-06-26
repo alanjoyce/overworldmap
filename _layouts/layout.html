@@ -17,6 +17,8 @@
 		
     <title>Overworld Map: {{ page.title }}</title>
 		{% if page.frontpage %}<meta name="description" content="Documenting and analyzing the maps, indicators, and other wayfinding devices used in the past three decades of video games.">{% endif %}
+		
+		{% include google_ajax_search.html %}
   </head>
   <body>
 		<div id="container">
@@ -41,14 +43,19 @@
 				</div>
 				
 				<div id="sidebar">
-					{% for category in site.categories %}
-						<a href="/{{category | first}}" class="category"><p class="category">{{category | first}}</p></a>
-					{% endfor %}
+					<div id="categoryList">
+						{% for category in site.categories %}
+							<a href="/{{category | first}}" class="category"><p class="category">{{category | first}}</p></a>
+						{% endfor %}
+					</div>
+					
+					<div id="searchBox"></div>
 				</div>
 				
 				<div id="content">
 	      	{{ content }}
 				</div>
+				<div class="clear"></div>
 	    </div>
 			<footer>
 				<div id="footer">

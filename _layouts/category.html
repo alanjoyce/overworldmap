@@ -15,7 +15,6 @@ layout: layout
 				<p class="postDate">{{ post.date | date: "%B %e, %Y" }} in {% for category in post.categories %}{% if forloop.first %}{% else %}, {% endif %}<a href="/{{category}}">{{category}}</a>{% endfor %}</p>
 				<p class="postPreview">{{ post.teaser }}</p>
 			</div>
-			<div class="postSeparator"></div>
 		{% endfor %}
 	</div>
 </div>

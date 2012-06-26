@@ -93,6 +93,10 @@ span.gray a {
 	cursor: default;
 }
 
+div.clear {
+	clear: right;
+}
+
 
 /* SIDEBAR */
 
@@ -168,6 +172,10 @@ div.postNavigation a.newerPosts {
 
 /* CATEGORY */
 
+div.categoryPostListing {
+	margin-bottom: 2em;
+}
+
 p.categoryTitle {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8em;
@@ -183,6 +191,23 @@ div.categoryPostImage {
 div.categoryPostImage img {
 	width: 100%;
 	margin-top: -10em;
+}
+
+#searchBox {
+	margin-top: 2em;
+}
+
+.gsc-control {
+	width: 100% !important;
+}
+
+.gsc-input {
+	height: 2.5em;
+	color: #888;
+}
+
+.gsc-search-button {
+	display: none;
 }
 
 
