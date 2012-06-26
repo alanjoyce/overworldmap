@@ -15,8 +15,13 @@
 		<link rel="stylesheet" href="/css/reset.css">
 		<link rel="stylesheet" href="/css/style.css">
 		
-    <title>Overworld Map: {{ page.title }}</title>
-		{% if page.frontpage %}<meta name="description" content="Documenting and analyzing the maps, indicators, and other wayfinding devices used in the past three decades of video games.">{% endif %}
+		{% if page.frontpage %}
+    	<title>{{ page.title }}</title>
+		{% else %}
+			<title>{{ page.title }} - Overworld Map</title>
+		{% endif %}
+		
+		{% if page.frontpage %}<meta name="description" content="A celebration of video game cartography, studying the maps, indicators, and interfaces that help players find their way around.">{% endif %}
 		
 		{% include google_ajax_search.html %}
   </head>
@@ -26,7 +31,7 @@
 				<div id="header">
 					<a href="/"><img src="/img/island.gif"></a>
 	      	<a href="/"><div class="siteTitle">Overworld Map</div></a>
-					<div class="siteSubtitle">Cartography and Wayfinding in Video Games</div>
+					<div class="siteSubtitle">A Celebration of Video Game Cartography</div>
 				</div>
 	    </header>
 	    <div id="main">
