@@ -141,12 +141,12 @@ div.postListing {
 div.postImage {
 	height: 15em;
 	overflow: hidden;
-	margin-bottom: 0.8em;
+	margin-bottom: 0.5em;
 }
 
 div.postImage img {
 	width: 100%;
-	margin-top: -10em;
+	margin-top: -4em;
 }
 
 div.postSeparator {
@@ -164,6 +164,20 @@ div.postNavigation {
 
 div.postNavigation a.newerPosts {
 	float: left;
+}
+
+
+/* CATEGORY */
+
+div.categoryPostImage {
+	height: 2.5em;
+	overflow: hidden;
+	margin-bottom: 0.3em;
+}
+
+div.categoryPostImage img {
+	width: 100%;
+	margin-top: -10em;
 }
 
 
