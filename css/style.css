@@ -6,6 +6,7 @@ body {
 	padding-bottom: 1.8em;
 	font-family: 'Georgia', serif;
 	font-size: 1em;
+	color: #222;
 }
 
 #container {
@@ -93,9 +94,41 @@ span.gray a {
 	cursor: default;
 }
 
+
+/* SIDEBAR */
+
+#sidebar {
+	float: right;
+	width: 29%;
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+p.category {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	padding: 0.25em;
+	padding-top: 0.3em;
+	margin-bottom: 0.2em;
+	border-top: 1px dashed #aaa;
+	border-bottom: 1px dashed #aaa;
+}
+
+a.category {
+	color: rgb(105,140,70);
+}
+
+a.category:hover {
+	color: rgb(50,50,125);
+	text-decoration: none;
+}
+
+
+/* CONTENT */
+
 #content {
-	padding: 1.4em;
 	width: 65%;
+	padding: 1.4em;
 }
 
 
@@ -113,7 +146,7 @@ div.postImage {
 
 div.postImage img {
 	width: 100%;
-	margin-top: -15em;
+	margin-top: -10em;
 }
 
 div.postSeparator {
@@ -180,7 +213,6 @@ h2 {
 p {
 	margin-bottom: 1em;
 	line-height: 1.2em;
-	color: #222;
 }
 
 ul {

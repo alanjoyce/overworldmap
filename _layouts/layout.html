@@ -39,6 +39,13 @@
 						<a href="/contact.html">contact</a>
 					{% if page.title == "Contact" %}</span>{% endif %}
 				</div>
+				
+				<div id="sidebar">
+					{% for category in site.categories %}
+						<a href="/{{category | first}}" class="category"><p class="category">{{category | first}}</p></a>
+					{% endfor %}
+				</div>
+				
 				<div id="content">
 	      	{{ content }}
 				</div>

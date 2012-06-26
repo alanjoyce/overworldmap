@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Weycome to Overworld Map
+title: Welcome to Overworld Map
 image: super_mario_world.png
 categories: [general]
 teaser: A new website for things.
