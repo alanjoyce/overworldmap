@@ -2,6 +2,7 @@
 layout: post
 title: Final Fantasy Maps Through the Ages
 image: final_fantasy_overworld.png
+image-offset: 1.8
 categories: [features]
 teaser: We take a look back at the cartography of the Final Fantasy franchise, beginning with the 1987 NES release and working our way forward in time.
 ---

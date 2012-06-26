@@ -10,7 +10,7 @@ frontpage: yes
 			{% if post.image %}
 				<div class="postImage">
 					<a href="{{ post.url }}" class="postLink">
-						<img src="{{site.media}}{{post.image}}" />
+						<img src="{{site.media}}{{post.image}}"{% if post.image-offset %} style="margin-top: -{{post.image-offset}}em;"{% endif %} />
 					</a>
 				</div>
 			{% endif %}
