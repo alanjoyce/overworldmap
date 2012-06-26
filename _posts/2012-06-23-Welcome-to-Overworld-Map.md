@@ -2,14 +2,13 @@
 layout: post
 title: Welcome to Overworld Map
 image: super_mario_world.jpg
-categories: [general]
+categories: [news]
 teaser: This is a celebration of video game cartography, a place to study the maps, indicators, and interfaces that have helped players find their way through three decades of video games.
 ---
 
-Welcome to Overworld Map, a place to discuss wayfinding in video games.
+Welcome to _Overworld Map_, a place to discuss cartography and wayfinding in video games.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Over the next few days and weeks, expect this site to be filled out with a variety of posts and articles. We'll be starting a few regular features, including:
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
-
-Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+* [Hall of Fame](/hall-of-fame): A tribute to the all-time best maps in gaming.
+* [Reviewed](/reviews): Hands-on reviews of newly released print and digital game maps.

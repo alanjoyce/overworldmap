@@ -194,7 +194,8 @@ div.categoryPostImage img {
 }
 
 #searchBox {
-	margin-top: 2em;
+	margin-top: 1.5em;
+	margin-left: 0.2em;
 }
 
 .searchInput {
@@ -208,6 +209,12 @@ div.categoryPostImage img {
 
 .searchInput:focus {
 	outline: none;
+}
+
+#rssInfo {
+	margin-top: 1.5em;
+	margin-left: 0.2em;
+	color: #666;
 }
 
 
