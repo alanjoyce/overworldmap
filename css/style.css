@@ -292,6 +292,39 @@ strong {
 	font-weight: bold;
 }
 
+div.gallery {
+	width: 100%;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+div.galleryImageFirst {
+	width: 36.7em;
+	height: 22.5em;
+	overflow: hidden;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+div.galleryImageFirst img {
+	width: 36.5em;
+}
+
+div.galleryImage {
+	width: 8.8em;
+	height: 5.2em;
+	overflow: hidden;
+	float: left;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+div.galleryClear {
+	width: 100%;
+	clear: left;
+	padding-bottom: 0.5em;
+}
+
 
 /* FOOTER */
 
