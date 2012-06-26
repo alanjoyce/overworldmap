@@ -3,10 +3,10 @@ layout: layout
 ---
 
 <div class="category">
-	<p class="categoryTitle">posts // {{ page.title }}</p>
+	<p class="categoryTitle">posts // {{page.title | downcase}}</p>
 	
 	<div class="categoryPosts">
-		{% for post in site.categories[page.title] %}
+		{% for post in paginator.posts %}
 			<div class="categoryPostListing">
 				<div class="categoryPostImage">
 					<a href="{{post.url}}"><img src="{{site.media}}{{post.image}}" /></a>
@@ -16,5 +16,22 @@ layout: layout
 				<p class="postPreview">{{ post.teaser }}</p>
 			</div>
 		{% endfor %}
+	</div>
+	
+	<div class="postNavigation">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a href="/{{page.title | downcase}}" class="newerPosts">&larr; newer posts</a>
+			{% else %}
+				<a href="/{{page.title | downcase}}/page{{paginator.previous_page}}" class="newerPosts">&larr; newer posts</a>
+			{% endif %}
+		{% else %}
+			<span class="gray"><a href="/" class="newerPosts">(no newer posts)</a></span>
+		{% endif %}
+		{% if paginator.next_page %}
+			<a href="/{{page.title | downcase}}/page{{paginator.next_page}}" class="olderPosts">older posts &rarr;</a>
+		{% else %}
+			<span class="gray"><a href="/" class="olderPosts">(no older posts)</a></span>
+		{% endif %}
 	</div>
 </div>
