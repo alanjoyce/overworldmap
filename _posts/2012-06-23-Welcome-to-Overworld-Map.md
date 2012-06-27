@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Overworld Map
-image: super_mario_world.jpg
+image: super_mario_world_overworld.png
 categories: [news]
 teaser: This is a celebration of video game cartography, a place to study the maps, indicators, and interfaces that have helped players find their way through three decades of video games.
 ---

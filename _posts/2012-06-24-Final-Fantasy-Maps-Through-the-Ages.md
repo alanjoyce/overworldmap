@@ -11,7 +11,7 @@ _Final Fantasy_ for the NES helped to define video game maps, popularizing the i
 
 Later titles in the franchise would develop on this premise, adding complexity and graphical polish, but still maintaining the idea of exploring a vast world map. With the move to the PlayStation 2 and _Final Fantasy X_, the series would shift from abstracted overworlds to 3D environments, requiring a similar shift in mapping techniques.
 
-We'll be focusing on the main-series, single-player Final Fantasy games, from I to XIII. Let's take a look...
+We'll be focusing on the main-series (from I to XIII), single-player Final Fantasy games which saw original U.S. releases. Let's take a look...
 
 # NES
 
@@ -24,32 +24,23 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
-## _Final Fantasy II_ (1988)
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-
-## _Final Fantasy III_ (1990)
-
-{% assign gallery = 'super_mario_world.jpg' %}
-{% include gallery.html %}
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-
 # SNES
-
-Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica.
 
 ## _Final Fantasy IV_ (1991)
 
-Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+{% assign gallery = 'final_fantasy_4_overworld.png' %}
+{% include gallery.html %}
 
-## _Final Fantasy V_ (1992)
+Originally known as _Final Fantasy II_ in North America, _Final Fantasy IV_ followed in the footsteps of previous Japan-only release _Final Fantasy III_ by requiring the player to learn a spell (Sight) or use an item (Gnomish Bread) to view a map of the world.
 
-Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+The resulting map (seen in 1 above)...
 
 ## _Final Fantasy VI_ (1994)
 
-Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+{% assign gallery = 'super_mario_world_overworld.png' %}
+{% include gallery.html %}
+
+Originally known as _Final Fantasy III_ in North America.
 
 # PlayStation
 
