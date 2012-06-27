@@ -311,6 +311,13 @@ div.galleryImageFirst img {
 	height: 22.5em;
 }
 
+div.galleryWrapper {
+	padding-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1.6em;
+	border-top: 1px dashed #888;
+}
+
 div.galleryImage {
 	width: 8.8em;
 	height: 5.2em;
@@ -334,7 +341,8 @@ div.galleryImageText {
 	position: absolute;
 	font-size: 1.5em;
 	padding: 0.2em;
-	padding-bottom: 0.3em;
+	padding-bottom: 0.4em;
+	padding-top: 0.2em;
 	line-height: 0.8em;
 	color: #fff;
 	background: #000;
