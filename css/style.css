@@ -304,10 +304,11 @@ div.galleryImageFirst {
 	overflow: hidden;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
+	text-align: center;
 }
 
 div.galleryImageFirst img {
-	width: 36.5em;
+	height: 22.5em;
 }
 
 div.galleryImage {
@@ -317,6 +318,16 @@ div.galleryImage {
 	float: left;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
+	opacity: 0.5;
+}
+
+div.galleryImage:hover {
+	opacity: 1.0 !important;
+}
+
+div.galleryImage img {
+	cursor:	pointer;
+	width: 8.8em;
 }
 
 div.galleryClear {

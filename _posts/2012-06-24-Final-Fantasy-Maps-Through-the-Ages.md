@@ -30,7 +30,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 
 ## _Final Fantasy III_ (1990)
 
-{% assign gallery = 'final_fantasy_overworld.png, crusader_kings_2_green.jpg, final_fantasy_overworld.png' %}
+{% assign gallery = 'final_fantasy_overworld.png' %}
 {% include gallery.html %}
 
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
