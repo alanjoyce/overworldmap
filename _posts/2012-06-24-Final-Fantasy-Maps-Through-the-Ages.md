@@ -28,12 +28,12 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 
 ## _Final Fantasy IV_ (1991)
 
-{% assign gallery = 'final_fantasy_4_overworld.png' %}
+{% assign gallery = 'final_fantasy_4_overworld.png, final_fantasy_4_flying.png, final_fantasy_4_sight.png, final_fantasy_4_world_map.png' %}
 {% include gallery.html %}
 
 Originally known as _Final Fantasy II_ in North America, _Final Fantasy IV_ followed in the footsteps of previous Japan-only release _Final Fantasy III_ by requiring the player to learn a spell (Sight) or use an item (Gnomish Bread) to view a map of the world.
 
-The resulting map (seen in 1 above)...
+The resulting map (seen in 4 above) is simply a zoomed-out view of the overworld environment.
 
 ## _Final Fantasy VI_ (1994)
 
