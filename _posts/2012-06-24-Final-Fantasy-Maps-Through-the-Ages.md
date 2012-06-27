@@ -19,7 +19,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 ## _Final Fantasy_ (1987)
 
-{% assign gallery = 'super_mario_world.jpg, witcher_2_map.jpg, witcher_2_map.jpg, super_mario_world.jpg' %}
+{% assign gallery = 'final_fantasy_start.png, final_fantasy_broom.png, final_fantasy_overworld.png' %}
 {% include gallery.html %}
 
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
@@ -30,7 +30,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 
 ## _Final Fantasy III_ (1990)
 
-{% assign gallery = 'final_fantasy_overworld.png' %}
+{% assign gallery = 'super_mario_world.jpg' %}
 {% include gallery.html %}
 
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.

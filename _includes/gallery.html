@@ -7,7 +7,7 @@
 	document.getElementById("gallery{{galleryNum}}").innerHTML += '<div class="galleryImageFirst"><img id="galleryImageFirst{{galleryNum}}" src="{{site.media}}' + theseImages[0] + '" /></div>';
 	if(theseImages.length > 1) {
 		for(i = 0; i < theseImages.length; i++) {
-			document.getElementById("gallery{{galleryNum}}").innerHTML += '<div class="galleryImage" id="galleryImage' + i + '{{galleryNum}}" style="' + ((i == 0)?'opacity:1.0;':'') + '"><img onclick="document.getElementById(\'galleryImageFirst{{galleryNum}}\').src = this.src; for(j = 0; j < ' + theseImages.length + '; j++) {document.getElementById(\'galleryImage\' + j + \'{{galleryNum}}\').style.opacity = 0.5;} this.parentNode.style.opacity = 1.0;" src="{{site.media}}' + theseImages[i] + '" /></div>';
+			document.getElementById("gallery{{galleryNum}}").innerHTML += '<div class="galleryImage" id="galleryImage' + i + '{{galleryNum}}" style="' + ((i == 0)?'opacity:1.0;':'') + '"><div class="galleryImageText">' + i + '</div><img onclick="document.getElementById(\'galleryImageFirst{{galleryNum}}\').src = this.src; for(j = 0; j < ' + theseImages.length + '; j++) {document.getElementById(\'galleryImage\' + j + \'{{galleryNum}}\').style.opacity = 0.5;} this.parentNode.style.opacity = 1.0;" src="{{site.media}}' + theseImages[i] + '" /></div>';
 		}
 	}
 </script>

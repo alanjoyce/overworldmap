@@ -330,6 +330,16 @@ div.galleryImage img {
 	width: 8.8em;
 }
 
+div.galleryImageText {
+	position: absolute;
+	font-size: 1.5em;
+	padding: 0.2em;
+	padding-bottom: 0.3em;
+	line-height: 0.8em;
+	color: #fff;
+	background: #000;
+}
+
 div.galleryClear {
 	width: 100%;
 	clear: left;
