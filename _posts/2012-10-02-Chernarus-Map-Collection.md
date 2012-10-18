@@ -12,14 +12,11 @@ Along with this crushing difficulty comes an aversion to any sort of easily acce
 
 To combat this, resourceful players have been relying upon PDF maps and Google Maps mashups to find their way around, with some even going so far as to print out poster-sized representations of Chernarus to hang on their walls.
 
-The folks at Bohemia Interactive have clearly been keeping tabs on these efforts, as they recently released a printed [Chernarus Map Collection]() for $PRICEHERE. This is the same set of maps that you can find in the collector's edition of ARMA II, but offered à la carte from Bohemia's website.
+The folks at Bohemia Interactive have clearly been keeping tabs on these efforts, as they recently released a printed [Chernarus Map Collection](https://store.bistudio.com/chernarus-map-collection) for $14.99. This is the same set of maps that you can find in the collector's edition of ARMA II, but offered à la carte from Bohemia's website.
 
 # What's in the Box
 
-For your $15, you actually get a bit more than just the map of Chernarus. The entire package includes:
+For your $15, you get:
 
-* Content
-
-# Using the Map
-
-Content here.
+* a fold-out map of Chernarus, Sahrani, Takistan, Shapur, and the Proving Grounds
+* 8 postcards featuring Arma II-related artwork
