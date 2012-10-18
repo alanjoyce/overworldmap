@@ -3,7 +3,7 @@ layout: post
 title: Hall of Fame&#58; The Witcher 2
 image: witcher_2_map.jpg
 categories: [hall-of-fame]
-teaser: In a game where bleeding-edge graphics are constantly on display, The Witcher 2's map strikes a brilliant balance between readability and stylistic flourish.
+teaser: In a game where bleeding-edge graphics are constantly on display, The Witcher 2's map strikes a balance between readability and stylistic flourish.
 ---
 
 Yeah, it is! Awesome! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.

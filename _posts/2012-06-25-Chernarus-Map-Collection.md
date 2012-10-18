@@ -6,26 +6,20 @@ categories: [reviews]
 teaser: Bohemia Interactive, developer of tactical shooter ARMA II, has released a printed map collection for the fictional country of Chernarus, made famous as the setting for the DayZ zombie survival RPG. We take a hands-on look at these maps and assess their suitability for your next adventure.
 ---
 
-Yeah, it is! Awesome! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Few could have predicted the sudden and massive popularity that has greeted the [DayZ](http://dayzmod.com) mod for military sim game ARMA II. As it turns out, a crushingly difficult representation of a zombie apocalypse &mdash; one where simply finding food and clean water is a challenge &mdash; is just what the doctor ordered.
 
-# Herein Lies Things
+Along with this crushing difficulty comes an aversion to any sort of easily accessible navigation information. A new character in DayZ typically begins their life knowing the name of the nearest town and not much else. Road signs can help point you in the right direction, but most of their lettering is Cyrillic. Even if you can read a sign or two, the playable area of Chernarus is so massive that reaching any given destination within the world is a struggle worthy of Ulysses.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+To combat this, resourceful players have been relying upon PDF maps and Google Maps mashups to find their way around, with some even going so far as to print out poster-sized representations of Chernarus to hang on their walls.
 
-## A List is Coming Soon
+The folks at Bohemia Interactive have clearly been keeping tabs on these efforts, as they recently released a printed [Chernarus Map Collection]() for $PRICEHERE. This is the same set of maps that you can find in the collector's edition of ARMA II, but offered à la carte from Bohemia's website.
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+# What's in the Box
 
-* itemnas
-	* suberitemnas
-	* otra suberitemnas
-* freisolo
-	* abasadao
+For your $15, you actually get a bit more than just the map of Chernarus. The entire package includes:
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+* Content
 
-# And There is More
+# Using the Map
 
-Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
-
-Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+Content here.
