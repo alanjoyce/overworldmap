@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Final Fantasy Maps Through the Ages: The SNES Era"
+author: Alan Joyce
 image: final_fantasy_4_flying.png
 image-offset: 5.4
 categories: [features]

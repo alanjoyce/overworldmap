@@ -97,6 +97,10 @@ div.clear {
 	clear: right;
 }
 
+.normalcase {
+	text-transform: none;
+}
+
 
 /* SIDEBAR */
 

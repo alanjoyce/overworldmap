@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Final Fantasy Maps Through the Ages: The NES Era"
+author: Alan Joyce
 image: final_fantasy_overworld.png
 image-offset: 1.8
 categories: [features]

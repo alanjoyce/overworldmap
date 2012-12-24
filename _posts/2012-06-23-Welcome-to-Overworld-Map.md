@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to Overworld Map
+author: Alan Joyce
 image: super_mario_world_overworld.png
 image-offset: 7
 categories: [news]

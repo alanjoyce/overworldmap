@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reviewed&#58; Chernarus Map Collection
+author: Alan Joyce
 image: chernarus_map_collection.jpg
 categories: [reviews]
 teaser: Bohemia Interactive, developer of tactical shooter ARMA II, has released a printed map collection for the fictional country of Chernarus, made famous as the setting for the DayZ zombie survival RPG. We take a hands-on look at these maps and assess their suitability for your next adventure.
